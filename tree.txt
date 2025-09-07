@@ -1,0 +1,64 @@
+.
+├── accounts
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── templates
+│   │   └── accounts
+│   │       ├── login.html
+│   │       └── register.html
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── docker-compose.yml
+├── Dockerfile
+├── manage.py
+├── pollme
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── views.py
+│   └── wsgi.py
+├── polls
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_auto_20231018_1318.py
+│   │   ├── 0003_alter_choice_id_alter_poll_id_alter_vote_id.py
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── templates
+│   │   └── polls
+│   │       ├── add_choice.html
+│   │       ├── add_poll.html
+│   │       ├── endpoll.html
+│   │       ├── poll_confirm_delete.html
+│   │       ├── poll_detail.html
+│   │       ├── poll_edit.html
+│   │       ├── poll_result.html
+│   │       └── polls_list.html
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── README.md
+├── requirements.txt
+├── static
+│   ├── css
+│   │   └── home_style.css
+│   └── img
+│       └── background.jpg
+├── templates
+│   ├── base.html
+│   ├── home.html
+│   └── includes
+│       └── navbar.html
+└── tree.txt
+
+15 directories, 47 files
